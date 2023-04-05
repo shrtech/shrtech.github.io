@@ -1,0 +1,17 @@
+nav {
+  position: fixed;
+}
+
+.brand-logo img {
+  height: 200px;
+  width: 200px;
+}
+
+.filler {
+  background: pink;
+  height: 1500px;
+}
+
+.filler p {
+  padding-top: 350px;
+}

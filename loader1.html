@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS-Scroll Logo Color Change</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	
+
+	<nav>
+  <a href="#!" class="brand-logo">
+  <img src="http://placekitten.com/200/200">
+</a>
+
+</nav>
+<div class="filler">
+  <p>Filler content so you can scroll</p>
+</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+  $(window).on("scroll", function() {
+    console.log($(this).scrollTop())
+    if($(this).scrollTop() >= 30){
+      // set to new image
+      $(".brand-logo img").attr("src","http://placekitten.com/300/300");
+    } else {
+      //back to default
+      $(".brand-logo img").attr("src","http://placekitten.com/200/200");
+    }
+  })
+})
+	</script>
+</body>
+</html>
