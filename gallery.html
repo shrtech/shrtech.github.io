@@ -35,6 +35,21 @@ Author: Webstrot
 <link rel="stylesheet" type="text/css" href="modules/ui/css/responsive.css" />
 <!--favicon-->
 <link rel="shortcut icon" type="image/png" href="modules/ui/img/favicon.png" />
+
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<!-- <script>
+// Get the modal
+var modal = document.getElementById('mymodal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> -->
+
 </head>
 
 <body class="demo-3">
@@ -227,127 +242,91 @@ Author: Webstrot
 <h3>Ice Cream Gallery</h3>
 </div>
 <div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/almond.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Almond</h3>
-<a href="modules/ui/img/gallery/almond.png"><i class="flaticon-right-arrow"></i></a>
+
+<img id="myImg" class="img-fluid" src="modules/ui/img/gallery/almond.png"><br><br>
+<div class="auto-container" style="margin-top: 20px;">
+<h3 style="text-align: center; font-family: Arial sans-serif;">Almond</h3>
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- <span class="close" aria-hidden="true">&times;</span> -->
+  <button class="btn btn-primary" onclick="$('.modal').hide()">&times;</button>
+  <div class="container" style="width: 100%;">
+  	<div class="row">
+  		<div class="col">
+  <img class="modal-content" style="width: 250px; height: 250px;"  src="modules/ui/img/gallery/almond.png">
+  <img class="modal-content" style="width: 250px; height: 250px;"  src="modules/ui/img/gallery/almond cone.png">
+  <img class="modal-content" style="width: 250px; height: 250px;"  src="modules/ui/img/gallery/almond plate .png">
+</div>
+  </div>
+</div>
+  <div id="caption"></div>
 </div>
 </div>
 <div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/almond plate .png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Almond Plate</h3>
-<a href="modules/ui/img/gallery/almond plate .png"><i class="flaticon-right-arrow"></i></a>
+<img id="myImg1" class="img-fluid" src="modules/ui/img/gallery/butterscotch1.png">
+<div class="auto-container" style="margin-top: 10px;">
+  <h3 style="text-align: center; font-family: Arial sans-serif;">Butter Scotch</h3>
+  </div>                                                  <!-- The Modal -->
+<div id="myModal1" class="modal1">
+  <button class="btn btn-primary" onclick="$('.modal1').hide()">&times;</button>
+  <div class="container" style="width: 100%;">
+  	<div class="row">
+  		<div class="col">
+  <img class="modal-content1" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/butterscotch1.png">
+  <img class="modal-content1" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/butterscotch2.png">
+  <img class="modal-content1" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/butterscotch3.png">
+</div>
+  </div>
+</div>
+  <div id="caption"></div>
 </div>
 </div>
 <div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/almond cone.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Almond Cone</h3>
-<a href="modules/ui/img/gallery/almond cone.png"><i class="flaticon-right-arrow"></i></a>
+<img id="myImg2" class="img-fluid" src="modules/ui/img/gallery/Keshar Pista1.png">
+<div class="auto-container" style="margin-top: 10px;">
+  <h3 style="text-align: center; font-family: Arial sans-serif;">Keshar Pista</h3>
+  </div>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+  <button class="btn btn-primary" onclick="$('.modal2').hide()">&times;</button>
+  <div class="container" style="width: 100%;">
+  	<div class="row">
+  		<div class="col">
+  <img class="modal-content2" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/Keshar Pista1.png">
+  <img class="modal-content2" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/Keshar Pista2.png">
+  <img class="modal-content2" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/Keshar Pista3.png">
+</div>
+  </div>
+</div>
+  <div id="caption"></div>
 </div>
 </div>
 <div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/butterscotch1.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/butterscotch1.png"><i class="flaticon-right-arrow"></i></a>
+<img id="myImg3" class="img-fluid" src="modules/ui/img/gallery/walnut1.png">
+<div class="auto-container" style="margin-top: 10px;">
+  <h3 style="text-align: center; font-family: Arial sans-serif;">Walnut</h3>
+  </div>
+
+<!-- The Modal -->
+<div id="myModal3" class="modal3">
+  <button class="btn btn-primary" onclick="$('.modal3').hide()">&times;</button>
+  <div class="container" style="width: 100%;">
+  	<div class="row">
+  		<div class="col">
+  <img class="modal-content3" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/walnut1.png">
+  <img class="modal-content3" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/walnut2.png">
+  <img class="modal-content3" style="width: 250px; height: 250px; z-index: -10000;"  src="modules/ui/img/gallery/walnut3.png">
 </div>
+  </div>
 </div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/butterscotch2.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/butterscotch2.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/butterscotch3.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/butterscotch3.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/Keshar Pista1.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/Keshar Pista1.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/Keshar Pista2.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/Keshar Pista2.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/Keshar Pista3.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/Keshar Pista3.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/panicecream.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/panicecream.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/pan cone .png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/pan cone .png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/pan plate.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/pan plate.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/walnut1.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/walnut1.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/walnut2.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/walnut2.png"><i class="flaticon-right-arrow"></i></a>
-</div>
-</div>
-<div class="ck_gallery_box_main_wrapper ck_gallery_box_main_wrapper_inner float_left zoom_popup">
-<img src="modules/ui/img/gallery/walnut3.png" alt="img">
-<div class="overlay"></div>
-<div class="ck_gallery_cont_wrapper float_left">
-<h3>Cherry Vanilla</h3>
-<a href="modules/ui/img/gallery/walnut3.png"><i class="flaticon-right-arrow"></i></a>
+  <div id="caption"></div>
 </div>
 </div>
 <div class="ck_red_btn ck_gallery_red_btn float_left">	<a href="#">Read More</a>
 </div>
+
 </div>
 <!-- ck gallery wrapper End -->
 <!-- cll wrapper Start-->
@@ -567,6 +546,94 @@ Office: </span>
 </div>
 </div>
 </div>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Modal FOr Gallery2
+var modal1 = document.getElementById("myModal1");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img1 = document.getElementById("myImg1");
+var modalImg1 = document.getElementById("img01");
+var captionText1 = document.getElementById("caption");
+img1.onclick = function(){
+  modal1.style.display = "block";
+  modalImg1.src = this.src;
+  captionText1.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal1.style.display = "none";
+}
+
+// Modal FOr Gallery3
+var modal2 = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img2 = document.getElementById("myImg2");
+var modalImg2 = document.getElementById("img01");
+var captionText2 = document.getElementById("caption");
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+  captionText2.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal1.style.display = "none";
+}
+
+// Modal FOr Gallery3
+var modal3 = document.getElementById("myModal3");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img3 = document.getElementById("myImg3");
+var modalImg3 = document.getElementById("img01");
+var captionText3 = document.getElementById("caption");
+img3.onclick = function(){
+  modal3.style.display = "block";
+  modalImg3.src = this.src;
+  captionText3.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal1.style.display = "none";
+}
+
+</script>
 <!-- st login wrapper End -->
 <script data-cfasync="false" src="modules/ui/js/email-decode.min.js"></script><script src="modules/ui/js/jquery-3.3.1.min.js"></script>
 <script src="modules/ui/js/bootstrap.min.js"></script>
