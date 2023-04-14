@@ -36,22 +36,21 @@
 
 		}
 
-		@media screen and (min-width: 768px) {
-			.about{
+		/*@media screen and (max-width: 896px) {
+			#about{
 
-/*		 margin: auto;*/
-/*		 margin-top: 900px;	*/
+				margin-top: -550px;
 
 		}
 
 
-	}
+	}*/
 
 	@media screen and (min-width: 768px) {
 			#contact-form{
 
-		 margin: auto;
-		 margin-top: 400px;	
+/*		 margin: auto;*/
+		 margin-top: 300px;	
 
 		}
 
@@ -62,8 +61,12 @@
 			#contact-form{
 
 		 margin: auto;
-		 margin-top: 200px;	
+		 margin-top: 150px;	
 
+		}
+
+		#portfolio {
+			margin-top: -200px;
 		}
 
 
@@ -254,8 +257,8 @@
 <section id="aboutSection" class="about">
 <div class="container">
 <div class="row align-items-center">
-<div class="col-lg-6">
-	<img src="modules/ui/img/personal-photo.png">
+<div class="col-lg-6" style="background-color: #FCAF17;">
+	<img src="modules/ui/img/personal-photo2.png" style="height: 800px;">
 <!-- <ul class="about__icons__wrap">
 <li>
 <img class="light" src="modules/ui/img/icons/xd_light.png" alt="XD">
@@ -754,12 +757,12 @@
 <!-- work-process-area-end -->
 
 <!-- portfolio-area -->
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-xl-6 col-lg-8">
 <div class="section__title text-center">
-<span class="sub-title">04 - Portfolio</span>
+<span class="sub-title">My Gallery</span>
 <h2 class="title">All creative work</h2>
 </div>
 </div>
@@ -767,33 +770,33 @@
 <div class="row justify-content-center">
 <div class="col-xl-10 col-lg-12">
 <ul class="nav nav-tabs portfolio__nav" id="portfolioTab" role="tablist">
-<li class="nav-item" role="presentation">
+<!-- <li class="nav-item" role="presentation">
 <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button"
-role="tab" aria-controls="all" aria-selected="true">All</button>
-</li>
-<li class="nav-item" role="presentation">
+role="tab" aria-controls="all" aria-selected="true"></button>
+</li> -->
+<!-- <li class="nav-item" role="presentation">
 <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website" type="button"
 role="tab" aria-controls="website" aria-selected="false">Awards</button>
-</li>
+</li> -->
 <!-- <li class="nav-item" role="presentation">
 <button class="nav-link" id="apps-tab" data-bs-toggle="tab" data-bs-target="#apps" type="button" role="tab" aria-controls="apps" aria-selected="false">mobile apps</button>
 </li> -->
-<li class="nav-item" role="presentation">
+<!-- <li class="nav-item" role="presentation">
 <button class="nav-link" id="dashboard-tab" data-bs-toggle="tab" data-bs-target="#dashboard" type="button"
 role="tab" aria-controls="dashboard" aria-selected="false">Celebrities</button>
-</li>
-<li class="nav-item" role="presentation">
+</li> -->
+<!-- <li class="nav-item" role="presentation">
 <button class="nav-link" id="landing-tab" data-bs-toggle="tab" data-bs-target="#landing" type="button"
 role="tab" aria-controls="landing" aria-selected="false">Charity</button>
-</li>
-<li class="nav-item" role="presentation">
+</li> -->
+<!-- <li class="nav-item" role="presentation">
 <button class="nav-link" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding" type="button"
 role="tab" aria-controls="branding" aria-selected="false">Felicitate</button>
-</li>
-<li class="nav-item" role="presentation">
+</li> -->
+<!-- <li class="nav-item" role="presentation">
 <button class="nav-link" id="graphic-tab" data-bs-toggle="tab" data-bs-target="#graphic" type="button"
 role="tab" aria-controls="graphic" aria-selected="false">Media</button>
-</li>
+</li> -->
 </ul>
 </div>
 </div>
@@ -806,7 +809,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 <div class="portfolio__active">
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/Awards/awards-gallery.jpeg" alt="">
+<img src="modules/ui/img/gallery/Awards/awards-gallery.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Apps Design</span>
@@ -816,7 +819,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/Awards/awards-gallery1.jpeg" alt="">
+<img src="modules/ui/img/gallery/Awards/awards-gallery1.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Design</span>
@@ -826,7 +829,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/Awards/awards-gallery2.jpeg" alt="">
+<img src="modules/ui/img/gallery/Awards/awards-gallery2.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>UX/UI Design</span>
@@ -836,7 +839,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/Awards/awards-gallery3.jpeg" alt="">
+<img src="modules/ui/img/gallery/Awards/awards-gallery3.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -846,7 +849,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/Awards/awards-gallery3.jpeg" alt="">
+<img src="modules/ui/img/gallery/Awards/awards-gallery3.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -856,7 +859,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/celebrities/celebrity-gallery.jpeg" alt="">
+<img src="modules/ui/img/gallery/celebrities/celebrity-gallery.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -866,7 +869,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/celebrities/celebrity-gallery1.jpeg" alt="">
+<img src="modules/ui/img/gallery/celebrities/celebrity-gallery1.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -876,7 +879,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/celebrities/celebrity-gallery2.jpeg" alt="">
+<img src="modules/ui/img/gallery/celebrities/celebrity-gallery2.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -886,7 +889,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/celebrities/celebrity-gallery3.jpeg" alt="">
+<img src="modules/ui/img/gallery/celebrities/celebrity-gallery3.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -896,7 +899,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/charity/charity-gallery.jpeg" alt="">
+<img src="modules/ui/img/gallery/charity/charity-gallery.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -906,7 +909,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/charity/charity-gallery1.jpeg" alt="">
+<img src="modules/ui/img/gallery/charity/charity-gallery1.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -916,7 +919,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/charity/charity-gallery2.jpeg" alt="">
+<img src="modules/ui/img/gallery/charity/charity-gallery2.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -926,48 +929,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/charity/charity-gallery3.jpeg" alt="">
-</div>
-<!-- <div class="portfolio__overlay__content">
-<span>Web Development</span>
-<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
-<a href="portfolio-details.html" class="link">Case Study</a>
-</div> -->
-</div>
-
-<div class="portfolio__item">
-<div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/felicitate/felicitate-gallery.jpeg" alt="">
-</div>
-<!-- <div class="portfolio__overlay__content">
-<span>Web Development</span>
-<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
-<a href="portfolio-details.html" class="link">Case Study</a>
-</div> -->
-</div>
-<div class="portfolio__item">
-<div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/felicitate/felicitate-gallery1.jpeg" alt="">
-</div>
-<!-- <div class="portfolio__overlay__content">
-<span>Web Development</span>
-<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
-<a href="portfolio-details.html" class="link">Case Study</a>
-</div> -->
-</div>
-<div class="portfolio__item">
-<div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/felicitate/felicitate-gallery2.jpeg" alt="">
-</div>
-<!-- <div class="portfolio__overlay__content">
-<span>Web Development</span>
-<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
-<a href="portfolio-details.html" class="link">Case Study</a>
-</div> -->
-</div>
-<div class="portfolio__item">
-<div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/felicitate/felicitate-gallery3.jpeg" alt="">
+<img src="modules/ui/img/gallery/charity/charity-gallery3.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -978,7 +940,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/media/media-gallery.jpeg" alt="">
+<img src="modules/ui/img/gallery/felicitate/felicitate-gallery.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -988,7 +950,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/media/media-gallery1.jpeg" alt="">
+<img src="modules/ui/img/gallery/felicitate/felicitate-gallery1.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -998,7 +960,7 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/media/media-gallery2.jpeg" alt="">
+<img src="modules/ui/img/gallery/felicitate/felicitate-gallery2.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -1008,7 +970,48 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="portfolio__item">
 <div class="portfolio__thumb">
-<img src="modules/ui/img/gallery/media/media-gallery3.jpeg" alt="">
+<img src="modules/ui/img/gallery/felicitate/felicitate-gallery3.jpeg" style="height: 650px;" alt="">
+</div>
+<!-- <div class="portfolio__overlay__content">
+<span>Web Development</span>
+<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
+<a href="portfolio-details.html" class="link">Case Study</a>
+</div> -->
+</div>
+
+<div class="portfolio__item">
+<div class="portfolio__thumb">
+<img src="modules/ui/img/gallery/media/media-gallery.jpeg" style="height: 650px;" alt="">
+</div>
+<!-- <div class="portfolio__overlay__content">
+<span>Web Development</span>
+<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
+<a href="portfolio-details.html" class="link">Case Study</a>
+</div> -->
+</div>
+<div class="portfolio__item">
+<div class="portfolio__thumb">
+<img src="modules/ui/img/gallery/media/media-gallery1.jpeg" style="height: 650px;" alt="">
+</div>
+<!-- <div class="portfolio__overlay__content">
+<span>Web Development</span>
+<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
+<a href="portfolio-details.html" class="link">Case Study</a>
+</div> -->
+</div>
+<div class="portfolio__item">
+<div class="portfolio__thumb">
+<img src="modules/ui/img/gallery/media/media-gallery2.jpeg" style="height: 650px;" alt="">
+</div>
+<!-- <div class="portfolio__overlay__content">
+<span>Web Development</span>
+<h4 class="title"><a href="portfolio-details.html">Banking Management System</a></h4>
+<a href="portfolio-details.html" class="link">Case Study</a>
+</div> -->
+</div>
+<div class="portfolio__item">
+<div class="portfolio__thumb">
+<img src="modules/ui/img/gallery/media/media-gallery3.jpeg" style="height: 650px;" alt="">
 </div>
 <!-- <div class="portfolio__overlay__content">
 <span>Web Development</span>
@@ -1560,17 +1563,17 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 </div>
 <div class="homeContact__content">
 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-<h2 class="mail"><a href="/cdn-cgi/l/email-protection#a1e8cfc7cee1d6c4c3ccc0c8cd8fc2cecc"><span class="__cf_email__" data-cfemail="eaa3848c85aa9d8f88878b8386c4898587">[email&#160;protected]</span></a></h2>
+<h2 class="mail"><a href="mailto:info.divy@yahoo.com"><span >info.divy@yahoo.com</span></a></h2>
 </div>
 </div>
 <div class="col-lg-6">
 <div class="homeContact__form">
-<form action="#">
-<input type="text" placeholder="Enter name*">
-<input type="email" placeholder="Enter mail*">
-<input type="number" placeholder="Enter number*">
-<textarea name="message" placeholder="Enter Massage*"></textarea>
-<button type="submit">Send Message</button>
+<form action="mailto:info.divy@yahoo.com" method="post" enctype="text/plain">
+<input type="text" name="Full Name " placeholder="Enter Full Name*">
+<input type="email" name="E-mail Id "  placeholder="Enter mail*">
+<input type="text" name="Mobile No " placeholder="Enter number*">
+<textarea name="Message "  placeholder="Enter Message*"></textarea>
+<button value="send" type="submit" class="submit">Send Message</button>
 </form>
 </div>
 </div>
@@ -1593,12 +1596,10 @@ role="tab" aria-controls="graphic" aria-selected="false">Media</button>
 <div class="footer__widget">
 <div class="fw-title">
 <h5 class="sub-title">Contact us</h5>
-<h4 class="title">+81383 766 284</h4>
+<h4 class="title">+91 89052 24466</h4>
 </div>
 <div class="footer__widget__text">
-<p>There are many variations of passages of lorem ipsum
-available but the majority have suffered alteration
-in some form is also here.</p>
+<p>Innovative and performance-driven Entrepreneur with a deep passion for business. Experienced in managing all aspects of Business Development. Possess the ability to work and remain calm under pressure, excellent leadership skills, and great time management skills.</p>
 </div>
 </div>
 </div>
@@ -1606,11 +1607,11 @@ in some form is also here.</p>
 <div class="footer__widget">
 <div class="fw-title">
 <h5 class="sub-title">my address</h5>
-<h4 class="title">AUSTRALIA</h4>
+<h4 class="title">INDIA</h4>
 </div>
 <div class="footer__widget__address">
-<p>Level 13, 2 Elizabeth Steereyt set <br> Melbourne, Victoria 3000</p>
-<a href="/cdn-cgi/l/email-protection#0668697463766a7f466368706772692865696b" class="mail"><span class="__cf_email__" data-cfemail="7e10110c1b0e12073e1b10081f0a11501d1113">[email&#160;protected]</span></a>
+<p>103,VALLABH RESIDENCY,NR.LAVKUSH NAGARI,VADSAR <br>,VADODARA-390010,GUJARAT,INDIA</p>
+<a href="mailto:info.divy@yahoo.com"><span >info.divy@yahoo.com</span></a>
 </div>
 </div>
 </div>
@@ -1621,13 +1622,13 @@ in some form is also here.</p>
 <h4 class="title">socially connect</h4>
 </div>
 <div class="footer__widget__social">
-<p>Lorem ipsum dolor sit amet enim. <br> Etiam ullamcorper.</p>
+<p>Connect On Social Media<br> From Here.</p>
 <ul class="footer__social__list">
-<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-<li><a href="#"><i class="fab fa-behance"></i></a></li>
-<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+<li><a href="https://www.facebook.com/divyang.gandhi.9?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+<!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-behance"></i></a></li> -->
+<li><a href="https://www.linkedin.com/in/divyangkumar-gandhi-5b9b83184"><i class="fab fa-linkedin-in"></i></a></li>
+<li><a href="https://instagram.com/divyang_gandhi_official?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a></li>
 </ul>
 </div>
 </div>
@@ -1637,7 +1638,7 @@ in some form is also here.</p>
 <div class="row">
 <div class="col-12">
 <div class="copyright__text text-center">
-<p>Copyright @ Theme_Pure 2022 All right Reserved</p>
+<p>Copyright Developed With &#128149; By <img src="https://pnsweb.in/modules/ui/img/icons/favicon.png" style="height: 20px;"> &nbsp; <a href="https://pnsweb.in ">pnsweb.in </a>- 2023 All right Reserved</p>
 </div>
 </div>
 </div>
@@ -1650,14 +1651,15 @@ in some form is also here.</p>
 
 
 <!-- JS here -->
-<script data-cfasync="false" src="modules/ui/js/email-decode.min.js"></script><script src="modules/ui/js/jquery-3.6.0.min.js"></script>
+<script data-cfasync="false" src="modules/ui/js/email-decode.min.js"></script>
+<script src="modules/ui/js/jquery-3.6.0.min.js"></script>
 <script src="modules/ui/js/bootstrap.min.js"></script>
 <script src="modules/ui/js/isotope.pkgd.min.js"></script>
 <script src="modules/ui/js/imagesloaded.pkgd.min.js"></script>
 <script src="modules/ui/js/jquery.magnific-popup.min.js"></script>
 <script src="modules/ui/js/element-in-view.js"></script>
 <script src="modules/ui/js/slick.min.js"></script>
-<script src="modules/ui/js/ajax-form.js"></script>
+<!-- <script src="modules/ui/js/ajax-form.js"></script> -->
 <script src="modules/ui/js/wow.min.js"></script>
 <script src="modules/ui/js/plugins.js"></script>
 <script src="modules/ui/js/main.js"></script>
