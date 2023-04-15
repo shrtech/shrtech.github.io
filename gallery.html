@@ -20,6 +20,27 @@
 <link rel="stylesheet" href="modules/ui/css/default.css">
 <link rel="stylesheet" href="modules/ui/css/style.css">
 <link rel="stylesheet" href="modules/ui/css/responsive.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+<!-- external css here -->
+
+<link rel="stylesheet" href="masonry.css">
+
+<style type="text/css">
+	
+	#contact-form {
+		margin-top: 150px;
+	}
+
+	@media screen and (max-width: 767px){
+		#contact-form {
+		margin-top: 50px;
+	}
+}
+
+</style>
+
 </head>
 <body>
 
@@ -113,11 +134,11 @@
 <div class="row justify-content-center">
 <div class="col-xl-6 col-lg-8 col-md-10">
 <div class="breadcrumb__wrap__content">
-<h2 class="title">Case Study</h2>
+<h2 class="title">My Gallery</h2>
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb">
 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-<li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+<li class="breadcrumb-item active" aria-current="page">gallery</li>
 </ol>
 </nav>
 </div>
@@ -138,120 +159,173 @@
 <!-- breadcrumb-area-end -->
 
 <!-- portfolio-area -->
-<section class="portfolio__inner">
-<div class="container">
-<div class="row">
-<div class="col-12">
-<div class="portfolio__inner__nav">
-<button class="active" data-filter="*">all</button>
-<button data-filter=".cat-one">mobile apps</button>
-<button data-filter=".cat-two">website Design</button>
-<button data-filter=".cat-three">ui/kit</button>
-<button data-filter=".cat-four">Landing page</button>
-</div>
-</div>
-</div>
-<div class="portfolio__inner__active">
-<div class="portfolio__inner__item grid-item cat-two cat-three">
-<div class="row gx-0 align-items-center">
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__thumb">
-<a href="portfolio-details.html">
-<img src="modules/ui/img/portfolio/portfolio__img01.jpg" alt="">
-</a>
-</div>
-</div>
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__content">
-<h2 class="title"><a href="portfolio-details.html">Ecommerce Product Apps</a></h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-hidden in the middle of text</p>
-<a href="portfolio-details.html" class="link">View Case Study</a>
-</div>
-</div>
-</div>
-</div>
-<div class="portfolio__inner__item grid-item cat-one cat-three cat-four">
-<div class="row gx-0 align-items-center">
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__thumb">
-<a href="portfolio-details.html">
-<img src="modules/ui/img/portfolio/portfolio__img02.jpg" alt="">
-</a>
-</div>
-</div>
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__content">
-<h2 class="title"><a href="portfolio-details.html">Cryptocurrency web Application</a></h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-hidden in the middle of text</p>
-<a href="portfolio-details.html" class="link">View Case Study</a>
-</div>
-</div>
-</div>
-</div>
-<div class="portfolio__inner__item grid-item cat-one cat-four">
-<div class="row gx-0 align-items-center">
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__thumb">
-<a href="portfolio-details.html">
-<img src="modules/ui/img/portfolio/portfolio__img03.jpg" alt="">
-</a>
-</div>
-</div>
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__content">
-<h2 class="title"><a href="portfolio-details.html">Making 3d Illustration</a></h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-hidden in the middle of text</p>
-<a href="portfolio-details.html" class="link">View Case Study</a>
-</div>
-</div>
-</div>
-</div>
-<div class="portfolio__inner__item grid-item cat-two">
-<div class="row gx-0 align-items-center">
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__thumb">
-<a href="portfolio-details.html">
-<img src="modules/ui/img/portfolio/portfolio__img04.jpg" alt="">
-</a>
-</div>
-</div>
-<div class="col-lg-6 col-md-10">
-<div class="portfolio__inner__content">
-<h2 class="title"><a href="portfolio-details.html">Hilon - Personal Portfolio</a></h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-hidden in the middle of text</p>
-<a href="portfolio-details.html" class="link">View Case Study</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="pagination-wrap">
-<nav aria-label="Page navigation example">
-<ul class="pagination">
-<li class="page-item"><a class="page-link" href="#"><i class="far fa-long-arrow-left"></i></a></li>
-<li class="page-item active"><a class="page-link" href="#">1</a></li>
-<li class="page-item"><a class="page-link" href="#">2</a></li>
-<li class="page-item"><a class="page-link" href="#">3</a></li>
-<li class="page-item"><a class="page-link" href="#">...</a></li>
-<li class="page-item"><a class="page-link" href="#"><i class="far fa-long-arrow-right"></i></a></li>
-</ul>
-</nav>
-</div>
-</div>
+<section>
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="filtering col-sm-12 text-center">
+                <span data-filter="*" class="active">All</span>
+                <span data-filter=".architecture" class="">Awards</span>
+                <span data-filter=".decor" class="">Celebrities</span>
+                <span data-filter=".interior" class="">Honorary</span>
+                <span data-filter=".media" class="">Media</span>
+                <span data-filter=".socialwork" class="">Social Work</span>
+            </div>
+            <div class="col-12 text-center w-100">
+                <div class="grid form-row gallery text-center">
+                    <div class="col-lg-4 col-sm-6 mb-2 grid-item interior media">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x550/FF7F50/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Stylish Family Appartment</h4>
+                                    <p>[Interior]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 grid-item decor interior">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/20B2AA/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Minimal Guests House</h4>
+                                    <p>[Decor, Interior]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 grid-item architecture socialwork">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/C71585/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Modern Villa in Belgium</h4>
+                                    <p>[Architecture]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 grid-item interior">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x550/FF7F50/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Kitchen for Small family</h4>
+                                    <p>[Interior]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 grid-item architecture">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/FFDAB9/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Art Family Residence</h4>
+                                    <p>[Architecture]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 grid-item decor">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/98FB98/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Private House in Spain</h4>
+                                    <p>[Decor]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 mb-lg-0 grid-item interior">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/FF4500/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Minimalistic Style Appartment</h4>
+                                    <p>[Interior]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-2 mb-sm-0 grid-item decor">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/EEE8AA/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Luxury Bathroom Interior</h4>
+                                    <p>[Decor]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 grid-item architecture">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-image">
+                                <img src="https://www.bootdey.com/image/350x350/000080/000000" alt="..." />
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <a class="popimg ml-0" href="#">
+                                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                                    </a>
+                                    <h4>Loft Kitchen Interior</h4>
+                                    <p>[Architecture]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- portfolio-area-end -->
 
 
 <!-- contact-area -->
-<section class="homeContact homeContact__style__two">
+<section class="homeContact homeContact__style__two" id="contact-form">
 <div class="container">
 <div class="homeContact__wrap">
 <div class="row">
@@ -361,5 +435,9 @@ hidden in the middle of text</p>
 <script src="modules/ui/js/wow.min.js"></script>
 <script src="modules/ui/js/plugins.js"></script>
 <script src="modules/ui/js/main.js"></script>
+
+<!-- external js here -->
+<script src="masonry.js"></script>
+
 </body>
 </html>
