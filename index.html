@@ -282,6 +282,14 @@ var countdownfunction = setInterval(function() {
             }
         }
 
+        @media screen and (min-width: 767px){
+
+            #about-img{
+                height: 1000px;
+            }
+
+        }
+
     </style>
 
 </head>
@@ -406,8 +414,8 @@ var countdownfunction = setInterval(function() {
 <div class="container">
 <div class="row align-items-center">
 <div class="col-lg-6" style="background-color: #FCAF17;">
-    <marquee direction="right" behavior="slide" scrollamount="20">
-    <img src="modules/ui/img/personal-photo2.png" style="height: 815px;"></marquee>
+    <marquee behavior="slide" scrollamount="20">
+    <img src="modules/ui/img/personal-photo2.png" id="about-img"></marquee>
 <!-- <ul class="about__icons__wrap">
 <li>
 <img class="light" src="modules/ui/img/icons/xd_light.png" alt="XD">
@@ -455,7 +463,7 @@ var countdownfunction = setInterval(function() {
 <img src="modules/ui/img/icons/about_icon.png" alt="">
 </div>
 <div class="about__exp__content">
-<p>He is enthusiastic about business and has a<br> track record of managing all aspects of business development.</p>
+<p><marquee behavior="slide" scrollamount="20">He is enthusiastic about business and has a</marquee><br><marquee behavior="slide" scrollamount="20"> track record of managing all aspects of business</marquee> <marquee behavior="slide" scrollamount="20">development.</marquee></p>
 </div>
 </div>
 <p class="desc" style="text-align: justify;">I Have capability to remain composed and productive during challenging situations, posses strong leadership abilities, and skilled in managing time effectively. Have played a crucial role in a multinational institute and a charitable trust organization. </p>
