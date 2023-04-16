@@ -60,6 +60,7 @@ body {
   background: #0c0f16;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 20px;
   overflow-x: hidden !important;
   font-family: 'Poppins', sans-serif; }
   body.dark2 {
