@@ -261,18 +261,18 @@
   padding-top: 100px; /* Location of the box */
   left: 450px;
   top: 250px;
-  width: 950px; /* Full width */
+  width: 790px; /* Full width */
   height: 500px; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  overflow: hidden; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
 .modal-content2 {
-  margin: auto;
+ margin-top: 50px;
   display: inline-block;
-  overflow: auto;
+  overflow: hidden;
   width: 80%;
   max-width: 700px;
 }
@@ -386,7 +386,7 @@
 
 /* Modal Content (image) */
 .modal-content3 {
-  margin: auto;
+  margin-top: 50px;
   display: inline-block;
   overflow: hidden;
   width: 80%;
@@ -502,7 +502,7 @@
 
 /* Modal Content (image) */
 .modal-content4 {
-  margin: auto;
+ margin-top: 50px;
   display: inline-block;
   overflow: hidden;
   width: 80%;
@@ -618,7 +618,7 @@
 
 /* Modal Content (image) */
 .modal-content5 {
-  margin: auto;
+  margin-top: 50px;
   display: inline-block;
   overflow: hidden;
   width: 80%;
