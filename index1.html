@@ -25,7 +25,7 @@
 <link rel="stylesheet" type="text/css" href="modules/ui/css/magnific-popup.css" />
 <link rel="stylesheet" type="text/css" href="modules/ui/css/style_III.css" />
 <link rel="stylesheet" type="text/css" href="modules/ui/css/responsive_III.css" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="home-navbar.css" />
 
 <!--favicon-->
 <link rel="shortcut icon" type="image/png" href="modules/ui/img/logo/Reyaa-favicon.png" />
@@ -40,6 +40,22 @@
             background-repeat: no-repeat;
             background-attachment: fixed;   
    }
+ }
+
+
+
+ @media screen and (min-width: 1080px) {
+      #section4{
+            margin-top: -250px;  
+   }
+   #section3{
+            margin-top: -200px;  
+   }
+
+   #section10{
+            margin-top: -100px;  
+   }
+   
  }
 
  
@@ -241,6 +257,8 @@
             width: 100%;
         }
 
+        
+
 </style>
 
 </head>
@@ -249,7 +267,7 @@
 <!-- preloader Start -->
 <div id="preloader">
 <div id="status">
-<img src="modules/ui/img/loader-bg.gif" id="preloader_image" alt="loader">
+<img src="modules/ui/img/gif/loader-bg.gif" id="preloader_image" alt="loader">
 </div>
 </div>
 <!-- ck fullpage wrapper Start -->
@@ -262,6 +280,7 @@
 </div>
 <div class="ck_top_life_effect"></div>
 <div class="ck_bot_life_effect"></div>
+<header class="navbar-fixed-top cbp-af-header-shrink ">
 <div class="navbar">
  
     <!-- Navbar logo -->
@@ -325,7 +344,7 @@
       <a href="contact.html" style="color: #000;">Contact</a>
       
     </div>
- 
+ </header>
   </div>
 <!-- ck navigation wrapper End -->
 <!-- ck fullpage wrapper start -->
@@ -404,7 +423,7 @@
 </div>
 </div>
 <div class="ck_offer_main_wrapper section animated-row float_left" data-section="section3" style="z-index: 1000;">
-<div class="container">
+<div class="container" id="section3">
     <!-- <img id="img-display" src="modules/ui/img/different_logo/Reyaa_Different Colours.png" style="height: 150px; width: 157px; float: right; position: relative;bottom: -350px; right: -300px;"> -->
 <div class="row">
 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
@@ -443,7 +462,7 @@
 </div>
 </div>
 <div class="ck_elem_main_wrapper section animated-row float_left" data-section="section9" style="z-index: 1000;">
-<div class="container">
+<div class="container" id="section4">
     <!-- <img id="img-display" src="modules/ui/img/different_logo/Reyaa_Different Colours - 2.png" style="height: 150px; width: 157px; float: right; position: relative;bottom: -350px; right: -300px;"> -->
 <div class="row">
 <div class="col-md-12 align-self-center">
@@ -588,7 +607,7 @@
 </div>
 </div>
 <div class="ck_gallery_main_wrapper section animated-row float_left" data-section="section4">
-<div class="container">
+<div class="container" id="section4">
     <!-- <img id="img-display" src="modules/ui/img/different_logo/Reyaa_Different Colours - 1.png" style="height: 150px; width: 157px; float: right; position: relative;bottom: -350px; right: -300px;"> -->
 <div class="row">
 <div class="col-md-12 align-self-center">
@@ -669,7 +688,7 @@
 </div>
 </div>
 <div class="ck_gallery_main_wrapper section animated-row float_left" data-section="section5">
-<div class="container">
+<div class="container" id="section4">
     <!-- <img id="img-display" src="modules/ui/img/different_logo/Reyaa_Different Colours - 2.png" style="height: 150px; width: 157px; float: right; position: relative;bottom: -350px; right: -300px;"> -->
 <div class="row">
 <div class="col-md-12 align-self-center">
@@ -805,7 +824,7 @@
 </div>
 </div> -->
 <div class="ck_testi_main_wrapper section animated-row float_left" data-section="section7">
-<div class="container">
+<div class="container" id="section4">
     <!-- <img id="img-display" src="modules/ui/img/different_logo/Reyaa_Different Colours.png" style="height: 150px; width: 157px; float: right; position: relative;bottom: -350px; right: -300px;"> -->
 <div class="row">
 <div class="col-md-12 align-self-center">
@@ -974,7 +993,7 @@
 </div> -->
 
 <div class="ck_contact_main_wrapper section animated-row float_left" data-section="section10">
-<div class="container">
+<div class="container" id="section10">
     <!-- <img id="img-display" src="modules/ui/img/different_logo/Reyaa_Different Colours - 3.png" style="height: 150px; width: 157px; float: right; position: relative;bottom: -350px; right: -300px;"> -->
 <div class="row">
 <div class="col-md-12 align-self-center">
@@ -1179,6 +1198,21 @@ map: map
 });
 }
 </script>
+
+<script type="text/javascript">
+    function scrollPage() {
+var sy = scrollY();
+if ( sy &amp;amp;amp;amp;amp;gt;= changeHeaderOn ) {
+classie.add( header, 'cbp-af-header-shrink' );
+}
+else {
+classie.remove( header, 'cbp-af-header-shrink' );
+}
+didScroll = false;
+}
+
+</script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi2zbxXa0ObGqaSBo5NJMdwLs_xtQ03nI&callback=initMap"></script>
 </body>
 

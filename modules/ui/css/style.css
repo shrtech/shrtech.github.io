@@ -1472,7 +1472,7 @@ a:hover {
 	margin-left:2px;
 }
 .overlay {
-  background:rgba(230, 56, 75, 0.57);
+  background:rgba(248, 232, 232, 0.57);
   position:absolute;
   top:200px;
   bottom:200px;
@@ -2195,7 +2195,7 @@ a:hover {
 }
 /*-- title css Start --*/
 .ck_title_main_wrapper{
-	background:url('../img/header_bg2.jpg') 50% 0 repeat-y;
+	background: url('../img/header_bg2.jpg') 50% 0 repeat-y;
 	background-position:center 0;
 	background-size:cover;
 	width:100%;
@@ -2214,20 +2214,20 @@ a:hover {
 	margin-left:10px;
 }
 .ck_title_cont li:first-child a{
-	color:#707070;
+	color:#fff;
 }
 .ck_title_cont li:first-child a:hover{
-	color:#f25261;
+	color:#f8e8e8;
 }
 .ck_title_cont li:last-child{
-	color:#f25261;
+	color:#fff;
 }
 /*-- title css End --*/
 /*-- about inner css Start --*/
 .ck_about_inner_section_main_wrapper{
 	padding-top:100px;
 	padding-bottom:100px;
-	    background: #fff;
+	    background: #f8e8e8;
 }
 .ck_heading_inner_wrapper h4{
 	font-size:16px;
@@ -2243,7 +2243,7 @@ a:hover {
 }
 .ck_heading_inner_wrapper h3:after{
 	content:'';
-	border:2px solid #f35564;
+	border:2px solid #333;
 	width:30px;
 	position:absolute;
 	left:0;
@@ -2260,7 +2260,7 @@ a:hover {
 	width:50px;
 	float:left;
 	    padding-top: 7px;
-		color:#f35564;
+		color:#333;
 }
 .ck_about_new_pera_box p{
 	float:left;
@@ -2273,16 +2273,16 @@ a:hover {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #f35564;
-    color: #fff;
+    background: #fff;
+    color: #333;
 	margin-top:30px;
     text-transform: capitalize;
     border: 1px solid transparent;
 }
 .ck_red_btn a:hover{
 	    background: transparent;
-    border: 1px solid #f35564;
-    color: #f35564;
+    border: 1px solid #333;
+    color: #333;
 }
 /*-- about inner css End --*/
 /***--- counter wrapper css ----****/
@@ -2373,11 +2373,11 @@ a:hover {
 .ck_gallery_inner_main_wrapper{
 	padding-top:100px;
 	padding-bottom:100px;
-	background:#fff;
+	background:#f8e8e8;
 }
 .ck_inner_heading_wrapper h4{
 	font-size:16px;
-	color:#f35564;
+	color:#333;
 	font-family: 'Lato', sans-serif;
 	text-transform:uppercase;
 }
@@ -2389,7 +2389,7 @@ a:hover {
 }
 .ck_inner_heading_wrapper h3:after{
 	content:'';
-	border:2px solid #f35564;
+	border:2px solid #333;
 	width:30px;
 	position:absolute;
 	left:0;
@@ -2423,7 +2423,7 @@ a:hover {
 	    border: 1px solid rgba(255, 255, 255, 0.44);
 }
 .ck_testi_inner_main_wrapper{
-	background:#fff;
+	background:#f8e8e8;
 	padding-top:100px;
 	padding-bottom:100px;
 }
@@ -2506,8 +2506,8 @@ a:hover {
 .cl_cll_form button{
 	width:150px;
 	height:50px;
-	background:#fff;
-	color:#f35564;
+	background:transparent;
+	color:#333;
 	border:1px solid #fff;
 	cursor:pointer;
 }
@@ -2593,7 +2593,7 @@ a:hover {
 }
 .footer_widget h4:after {
     content: '';
-    border: 2px solid #f35564;
+    border: 2px solid #333;
     width: 30px;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -2615,7 +2615,7 @@ a:hover {
 }
 .footer_about_wrapper .blog_read{
 	text-transform:capitalize;
-	color:#f35564;
+	color:#333;
 }
 .aboutus_social_icons {
     margin: 0;
@@ -2829,7 +2829,7 @@ a:hover {
 .footer_contact_wrapper li span {
     float: left;
     width: 80px;
-    color: #818d9a;
+    color: #000;
 	text-transform:capitalize;
 }
 .footer_contact_wrapper li p {
@@ -2845,7 +2845,8 @@ a:hover {
     transition: all 0.5s;
 }
 .footer_contact_wrapper li p a{
-	color:#818d9a;
+	color:#333;
+    font-family: Arial sans-serif;
 }
 .footer_contact_wrapper li p a:hover, .btm_foter_box p a:hover{
 	color:#f35564;
@@ -2897,15 +2898,15 @@ a:hover {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #f35564;
-    color: #fff;
+    background: #fff;
+    color: #333;
     text-transform: capitalize;
     border: 1px solid transparent;
 }
 .footer_btn a:hover{
 	    background: transparent;
-    border: 1px solid #f35564;
-    color: #f35564;
+    border: 1px solid #333;
+    color: #333;
 }
 /****************-- about css End --*****************************/
 /**********---------------- SHOP CSS START --------------****************/
@@ -2915,7 +2916,7 @@ a:hover {
 	width:100%;
 	padding-top:100px;
 	padding-bottom:100px;
-	    background: #fff;
+	    background: #f8e8e8;
 }
 .gc_shop_indx_search_box p{
 	margin:0;
@@ -2989,18 +2990,18 @@ a:hover {
 	color:#818d9a;
 }
 .ck_elem_slide_img_cont_inner h5{
-    color: #f35564;
+    color: #333;
 }
 .ck_offer_btn_inner a{
-	background:#f35564;
-	color:#fff;
+	background:#fff;
+	color:#333;
 }
 .ck_offer_btn_inner a:hover{
-	color:#f35564;
-	border:1px solid #f35564;
+	color:#333;
+	border:1px solid #333;
 }
 .ck_elem_slide_img_wrapper_inner{
-	border:1px dashed #f35564;
+	border:1px dashed #333;
 }
 .gc_causes_select_box{
 	margin-bottom:30px;
@@ -4131,7 +4132,7 @@ a:hover {
 .x_contact_title_icon i:before {
     margin-left: 0;
     font-size: 30px;
-    color: #f35564;
+    color: #333;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -4159,7 +4160,7 @@ a:hover {
     transition: all 0.5s;
 }
 .x_contact_title_icon_cont_main_box:hover{
-	background:#f35564;
+	background:#f8e8e8;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -4167,11 +4168,11 @@ a:hover {
     transition: all 0.5s;
 }
 .x_contact_title_icon_cont p a{
-	color:#797979;
+	color:#000;
 }
 .x_contact_title_icon_cont_main_box:hover .x_contact_title_icon i:before,.x_contact_title_icon_cont_main_box:hover .x_contact_title_icon_cont h3 a,
 .x_contact_title_icon_cont_main_box:hover .x_contact_title_icon_cont p,.x_contact_title_icon_cont_main_box:hover .x_contact_title_icon_cont p a{
-	color:#ffffff;
+	color:#333;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -4202,7 +4203,7 @@ a:hover {
 }
 .ck_contact_inner_heading_wrapper h4{
 	font-size: 16px;
-    color: #f35564;
+    color: #333;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 }
@@ -4214,7 +4215,7 @@ a:hover {
 }
 .ck_contact_inner_heading_wrapper h3:after{
 	    content: '';
-    border: 2px solid #f35564;
+    border: 2px solid #333;
     width: 30px;
     position: absolute;
     left: 0;
@@ -4311,7 +4312,7 @@ a:hover {
     color: #f35564;
 }
 .x_contact_title_main_wrapper{
-	background:#fff;
+	background:#f8e8e8;
 }
 .contect_form1 input {
     width: 100%;
@@ -4347,7 +4348,7 @@ a:hover {
 .contect_form2 input:hover,.contect_form2 input:focus,
 .contect_form3 input:hover,.contect_form3 input:focus,
 .contect_form1 textarea:hover,.contect_form1 textarea:focus{
-	border:1px solid #f35564;
+	border:1px solid #333;
 	outline:none;
 	box-shadow:none;
     -webkit-transition: all 0.5s;
@@ -4362,8 +4363,8 @@ a:hover {
     height: 50px;
     line-height: 45px;
     text-align: center;
-    background: #f35564;
-    color: #fff;
+    background: #fff;
+    color: #333;
     margin-top: 30px;
     text-transform: capitalize;
     border: 1px solid transparent;
@@ -4376,8 +4377,8 @@ a:hover {
 }
 .cont_bnt button:hover{
 	    background: transparent;
-    border: 1px solid #f35564;
-    color: #f35564;
+    border: 1px solid #333;
+    color: #fff;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -4950,7 +4951,7 @@ a:hover {
 .ck_gallery_page_inner_main_wrapper{
 	padding-top:100px;
 	padding-bottom:100px;
-	background:#fff;
+	background:#f8e8e8;
 }
 .ck_inner_pg_heading_wrapper{
 	padding-bottom:60px;
